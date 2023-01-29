@@ -4,7 +4,6 @@ import store from "./redux/store";
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Navigate, Route } from "react-router-dom";
 import AuthGuard from "./guards/auth.guard";
-import { Logout } from "./components";
 import RoutesWithNotFound from "./utilities/RoutesWithNotFound.utilities";
 import { PrivateRoutes, PublicRoutes, Roles } from "./models";
 import Home from "./pages/Private/Home/Home";
